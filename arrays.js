@@ -27,13 +27,12 @@ function accessElementInArray(array, index) {
   return accessArray[index];
 }
 
-/*
-  describe('accessElementInArray(array, index)', () => {
-    it('accesses the element in array at the given index', () => {
-      expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
-    })
-  })
 
+function destructivelyRemoveElementToBeginningOfArray(array) {
+    array.shift();
+    return array;
+
+/*
   describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
     it('returns the array with the first element removed', () => {
       expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
