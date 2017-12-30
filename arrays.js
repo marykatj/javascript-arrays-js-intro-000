@@ -27,10 +27,10 @@ function accessElementInArray(array, index) {
   return accessArray[index];
 }
 
-
 function destructivelyRemoveElementToBeginningOfArray(array) {
     array.shift();
     return array;
+}
 
 /*
   describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
