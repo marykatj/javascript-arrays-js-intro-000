@@ -38,6 +38,17 @@ function removeElementFromBeginningOfArray(array) {
   return myNewArray;
 }
 
+function destructivelyRemoveElementFromEndOfArray(array) {
+      array.pop();
+    return array;
+}
+
+function removeElementFromBeginningOfArray(array) {
+  const myArray = array;
+    const myNewArray = myArray.slice(1);
+  return myNewArray;
+}
+
 /*
   describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
     it('returns the array with the first element removed', () => {
