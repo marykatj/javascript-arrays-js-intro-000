@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  const myArray = `${array}`;
+  var myArray = `${array}`;
     myArray.unshift(`${element}`);
     return myArray();
 }
