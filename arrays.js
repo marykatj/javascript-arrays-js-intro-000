@@ -23,11 +23,8 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index); {
-  var 0 = 'index0'
-  var 1 = 'index1'
-  var 2 = 'index2'
-  var array = ['index0', 'index1', 'index2'];
-  return console.log(`${index}`);
+  var array = [`${index}`]
+  return console.log(index);
 }
 
 /*
